@@ -17,4 +17,14 @@
         Label7.Text = ""
         Label8.Text = ""
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Me.Close()
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim Fecha As Date
+        Fecha = Now
+        TextBox5.Text = Fecha
+    End Sub
 End Class
