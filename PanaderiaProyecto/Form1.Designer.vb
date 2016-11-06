@@ -55,89 +55,102 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(24, 174)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(44, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Donuts:"
+        Me.Label1.Size = New System.Drawing.Size(52, 17)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "&Donuts:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(24, 232)
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(24, 228)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(68, 13)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Magdalenas:"
+        Me.Label2.Size = New System.Drawing.Size(83, 17)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "&Magdalenas:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(24, 290)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(71, 13)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Nº de Piezas:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label3.Size = New System.Drawing.Size(86, 17)
+        Me.Label3.TabIndex = 11
+        Me.Label3.Text = "&Nº de Piezas:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(24, 349)
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(24, 346)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(45, 13)
-        Me.Label4.TabIndex = 4
-        Me.Label4.Text = "Importe:"
+        Me.Label4.Size = New System.Drawing.Size(57, 17)
+        Me.Label4.TabIndex = 12
+        Me.Label4.Text = "&Importe:"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(106, 171)
+        Me.TextBox1.Location = New System.Drawing.Point(120, 174)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 5
+        Me.TextBox1.TabIndex = 3
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(106, 228)
+        Me.TextBox2.Location = New System.Drawing.Point(120, 228)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 6
+        Me.TextBox2.TabIndex = 5
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(332, 169)
+        Me.Button1.BackColor = System.Drawing.Color.Gainsboro
+        Me.Button1.FlatAppearance.BorderSize = 2
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(322, 165)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "CALCULAR"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Size = New System.Drawing.Size(85, 27)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "&CALCULAR"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Button2.Location = New System.Drawing.Point(332, 226)
+        Me.Button2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(322, 221)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 10
-        Me.Button2.Text = "Imprimir"
+        Me.Button2.Size = New System.Drawing.Size(85, 28)
+        Me.Button2.TabIndex = 7
+        Me.Button2.Text = "&Imprimir"
+        Me.Button2.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(332, 285)
+        Me.Button3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(322, 278)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 11
-        Me.Button3.Text = "Limpiar"
+        Me.Button3.Size = New System.Drawing.Size(85, 30)
+        Me.Button3.TabIndex = 8
+        Me.Button3.Text = "&Limpiar"
+        Me.Button3.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(332, 343)
+        Me.Button4.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(322, 336)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 12
-        Me.Button4.Text = "Salir"
+        Me.Button4.Size = New System.Drawing.Size(85, 30)
+        Me.Button4.TabIndex = 9
+        Me.Button4.Text = "&Salir"
+        Me.Button4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Label5
@@ -147,7 +160,7 @@ Partial Class Form1
         Me.Label5.Location = New System.Drawing.Point(191, 36)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(183, 30)
-        Me.Label5.TabIndex = 13
+        Me.Label5.TabIndex = 10
         Me.Label5.Text = "RECIBO  DE  CAJA"
         '
         'TextBox5
@@ -155,7 +168,7 @@ Partial Class Form1
         Me.TextBox5.Location = New System.Drawing.Point(254, 89)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(120, 20)
-        Me.TextBox5.TabIndex = 14
+        Me.TextBox5.TabIndex = 1
         Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label6
@@ -164,29 +177,30 @@ Partial Class Form1
         Me.Label6.Location = New System.Drawing.Point(191, 96)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(40, 13)
-        Me.Label6.TabIndex = 15
-        Me.Label6.Text = "Fecha:"
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "&Fecha:"
         '
         'Label7
         '
         Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label7.Location = New System.Drawing.Point(106, 285)
+        Me.Label7.Location = New System.Drawing.Point(120, 285)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(100, 23)
-        Me.Label7.TabIndex = 16
+        Me.Label7.TabIndex = 13
         '
         'Label8
         '
         Me.Label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label8.Location = New System.Drawing.Point(106, 343)
+        Me.Label8.Location = New System.Drawing.Point(120, 343)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(100, 23)
-        Me.Label8.TabIndex = 17
+        Me.Label8.TabIndex = 14
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Gainsboro
         Me.ClientSize = New System.Drawing.Size(444, 401)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
@@ -206,7 +220,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "          PANADERIA EL CASTELLANO"
+        Me.Text = "         PANADERIA EL CASTELLANO"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
